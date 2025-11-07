@@ -5,15 +5,7 @@ A decentralized token project built on the Internet Computer (ICP) network.
 It provides a faucet, balance checker, and transfer system for the **JELLY Token**.
 
 ---
-## 📚 Resources
 
-- [Quick Start](https://sdk.dfinity.org/docs/quickstart/quickstart-intro.html)
-- [SDK Developer Tools](https://sdk.dfinity.org/docs/developers-guide/sdk-guide.html)
-- [Motoko Programming Language Guide](https://sdk.dfinity.org/docs/language-guide/motoko.html)
-- [Motoko Language Quick Reference](https://sdk.dfinity.org/docs/language-guide/language-manual.html)
-- [JavaScript API Reference](https://erxue-5aaaa-aaaab-qaagq-cai.raw.ic0.app)
-  
----
 ## 🧠 Features
 
 - **Faucet System** – Claim 10,000 free JELLY tokens instantly.  
@@ -38,7 +30,15 @@ It provides a faucet, balance checker, and transfer system for the **JELLY Token
 | **DFX SDK** | Internet Computer deployment tool |
 
 ---
+## 📚 Resources
 
+- [Quick Start](https://sdk.dfinity.org/docs/quickstart/quickstart-intro.html)
+- [SDK Developer Tools](https://sdk.dfinity.org/docs/developers-guide/sdk-guide.html)
+- [Motoko Programming Language Guide](https://sdk.dfinity.org/docs/language-guide/motoko.html)
+- [Motoko Language Quick Reference](https://sdk.dfinity.org/docs/language-guide/language-manual.html)
+- [JavaScript API Reference](https://erxue-5aaaa-aaaab-qaagq-cai.raw.ic0.app)
+  
+---
 ## 🖼️ Project Preview
 
 | UI | Claim 10000 Tokens |
