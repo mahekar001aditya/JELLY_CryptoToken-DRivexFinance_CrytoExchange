@@ -9,13 +9,33 @@ It provides a faucet, balance checker, and transfer system for the **JELLY Token
 ## 🖼️ Project Preview
 
 
-| | |
+
+| UI | Claim 10000 Tokens |
 |:--:|:--:|
 | ![UI](./imgg/jly1.png) | ![Claim 10000 Tokens](./imgg/jly2.png) |
+
+| Paste Profile 1 ID | Check Balance of Profile 1 |
+|:--:|:--:|
 | ![Paste Profile 1 ID](./imgg/jly3.png) | ![Check Balance of Profile 1](./imgg/jly4.png) |
+
+| Profile 2 Balance | Profile 1 Balance Credited |
+|:--:|:--:|
 | ![Profile 2 Balance](./imgg/jly5.png) | ![Profile 1 Balance Credited](./imgg/jly6.png) |
+
+| Profile to Balance Transfer | Profile 2 Transfer 50 Tokens Successfully |
+|:--:|:--:|
 | ![Profile to Balance Transfer](./imgg/jly7.png) | ![Profile 2 Transfer 50 Tokens Successfully](./imgg/jly8.png) |
+
+| Profile 2 Balance Debit | Profile 2 Insufficient Fund |
+|:--:|:--:|
 | ![Profile 2 Balance Debit](./imgg/jly9.png) | ![Profile 2 Insufficient Fund](./imgg/jly10.png) |
+
+
+
+
+
+
+
 
 ---
 # ⚙️ Setup and Local Deployment
