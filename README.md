@@ -22,7 +22,7 @@ It provides a faucet, balance checker, and transfer system for the **JELLY Token
 |:--:|:--:|
 | ![Profile 2 Balance](./imgg/jly5.png) | ![Profile 1 Balance Credited](./imgg/jly6.png) |
 
-| Profile to Balance Transfer | Profile 2 Transfer 50 Tokens Successfully |
+| Profile 2 to Balance Transfer | Profile 2 Transfer 50 Tokens Successfully |
 |:--:|:--:|
 | ![Profile to Balance Transfer](./imgg/jly7.png) | ![Profile 2 Transfer 50 Tokens Successfully](./imgg/jly8.png) |
 
