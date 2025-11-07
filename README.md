@@ -1,4 +1,4 @@
-# 💎 DRivex Finance  
+# 💎 DRivex Finance  &  🪙 JELLY Token
 **By Aditya Mahekar**
 
 A decentralized token project built on the Internet Computer (ICP) network.  
