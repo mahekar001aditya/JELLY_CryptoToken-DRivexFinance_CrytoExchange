@@ -17,7 +17,6 @@ It provides a faucet, balance checker, and transfer system for the **JELLY Token
 - **Secure Principal Identity** – Uses DFX identities for authentication and ownership.  
 
 ---
-
 ## 🖥️ Languages & Technologies Used
 
 | Technology | Purpose |
@@ -27,6 +26,7 @@ It provides a faucet, balance checker, and transfer system for the **JELLY Token
 | **JavaScript (JS)** | Frontend interactivity |
 | **React.js** | UI framework |
 | **Motoko** | Backend smart contract language |
+| **Node Modules (npm)** | Dependency and package management |
 | **DFX SDK** | Internet Computer deployment tool |
 
 ---
