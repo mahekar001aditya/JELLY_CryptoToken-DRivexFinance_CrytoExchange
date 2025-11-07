@@ -1,85 +1,31 @@
-# Check your Balance
+# 💎 DRivex Finance  
+**By Aditya Mahekar**
 
-1. Find out your principal id:
+A decentralized token project built on the Internet Computer (ICP) network.  
+It provides a faucet, balance checker, and transfer system for the **JELLY Token**.
 
-```
-dfx identity get-principal
-```
+---
 
-2. Save it somewhere.
+## 🖼️ Project Preview
 
-e.g. My principal id is: 773xt-fa4hy-tncuo-j6lmd-446vz-sriqc-kd5u5-wui7g-oau6n-nrodp-eae
+| | |
+|:--:|:--:|
+| ![Preview 1](./jly1.png) | ![Preview 2](./jly2.png) |
+| ![Preview 3](./jly3.png) | ![Preview 4](./jly4.png) |
+| ![Preview 5](./jly5.png) | ![Preview 6](./jly6.png) |
+| ![Preview 7](./jly7.png) | ![Preview 8](./jly8.png) |
+| ![Preview 9](./jly9.png) | ![Preview 10](./jly10.png) |
 
+---
 
-3. Format and store it in a command line variable:
-```
-OWNER_PUBLIC_KEY="principal \"$( \dfx identity get-principal )\""
-```
+## ⚙️ Setup and Local Deployment
 
-4. Check that step 3 worked by printing it out:
-```
-echo $OWNER_PUBLIC_KEY
-```
+```bash
+# 1. Start the local ICP replica
+dfx start --clean
 
-5. Check the owner's balance:
-```
-dfx canister call token balanceOf "( $OWNER_PUBLIC_KEY )"
-```
+# 2. Deploy your canisters (backend + frontend)
+dfx deploy
 
-# Charge the Canister
-
-
-1. Check canister ID:
-```
-dfx canister id token
-```
-
-2. Save canister ID into a command line variable:
-```
-CANISTER_PUBLIC_KEY="principal \"$( \dfx canister id token )\""
-```
-
-3. Check canister ID has been successfully saved:
-```
-echo $CANISTER_PUBLIC_KEY
-```
-
-4. Transfer half a billion tokens to the canister Principal ID:
-```
-dfx canister call token transfer "($CANISTER_PUBLIC_KEY, 500_000_000)"
-```
-
-# Deploy the Project to the Live IC Network
-
-1. Create and deploy canisters:
-
-```
-dfx deploy --network ic
-```
-
-2. Check the live canister ID:
-```
-dfx canister --network ic id token
-```
-
-3. Save the live canister ID to a command line variable:
-```
-LIVE_CANISTER_KEY="principal \"$( \dfx canister --network ic id token )\""
-```
-
-4. Check that it worked:
-```
-echo $LIVE_CANISTER_KEY
-```
-
-5. Transfer some tokens to the live canister:
-```
-dfx canister --network ic call token transfer "($LIVE_CANISTER_KEY, 50_000_000)"
-```
-
-6. Get live canister front-end id:
-```
-dfx canister --network ic id token_assets
-```
-7. Copy the id from step 6 and add .raw.ic0.app to the end to form a URL.
-e.g. zdv65-7qaaa-aaaai-qibdq-cai.raw.ic0.app
+# 3. Check if canisters are running
+dfx canister list
